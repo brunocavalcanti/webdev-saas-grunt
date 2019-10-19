@@ -1,0 +1,24 @@
+
+  @import "../../defaults/_colors.scss"; 
+  .header {
+    background-color: $color-background;
+  }
+  .header a {
+    border-radius: 0;
+    color: $color-text;
+    height: 70px;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+  .header a:hover {
+    border-bottom: 2px solid $color-text;
+  }
+  .header a .busca img {
+    margin-top: -10px;
+  }
+  .header a .busca:hover {
+    border: 0;
+  }
+  .header .logo {
+    padding: 10px 0;
+  }

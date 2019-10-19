@@ -1,0 +1,25 @@
+
+@import "../../defaults/_colors.scss"; 
+
+ .links-padrao, .rodape a:hover, .rodape btn:hover, .rodape .mapa a:hover {
+    text-decoration: underline;
+  }
+  
+  .rodape {
+    background-color: $color-text-footer;
+    padding: 25px 0;
+  }
+  .rodape .row {
+    padding: 10px;
+  }
+  .rodape .mapa a {
+    font-weight: bold;
+  }
+  .rodape .copyright {
+    color: $color-text;
+    margin-bottom: 0;
+  }
+  .rodape a, .rodape btn {
+    color: $color-text;
+  }
+  @import "../../defaults/_align.scss";
